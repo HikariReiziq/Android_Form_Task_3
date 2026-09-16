@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <color name="blue_primary">#2563EB</color>
+    <color name="blue_primary_dark">#1D4ED8</color>
+    <color name="blue_dark">#1E3A8A</color>
+    <color name="blue_deep">#0F172A</color>
+    <color name="blue_accent">#3B82F6</color>
+    <color name="blue_light">#DBEAFE</color>
+    <color name="blue_ultralight">#EFF6FF</color>
+    <color name="blue_background">#F1F5F9</color>
+    
+    <color name="surface_card">#FFFFFF</color>
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="border_color">#CBD5E1</color>
+    
+    <color name="btn_close">#DC2626</color>
+    <color name="btn_close_pressed">#B91C1C</color>
+</resources>

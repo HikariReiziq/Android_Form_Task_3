@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.Intent_Activity" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/blue_primary</item>
+        <item name="android:statusBarColor">@color/blue_dark</item>
+    </style>
+
+    <style name="Theme.Intent_Activity" parent="Base.Theme.Intent_Activity" />
+
+    <style name="CircularImageView" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>

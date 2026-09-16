@@ -1,0 +1,26 @@
+package com.example.intentsederhana;
+// java second
+import android.os.Bundle;
+import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+public class SecondActivity extends AppCompatActivity {
+
+    TextView txtNama, txtNrp;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_second);
+
+        txtNama = findViewById(R.id.txtNama);
+        txtNrp = findViewById(R.id.txtNrp);
+
+        String nama = getIntent().getStringExtra("nama");
+        String nrp = getIntent().getStringExtra("nrp");
+
+        txtNama.setText("Nama: " + nama);
+        txtNrp.setText("NRP: " + nrp);
+    }
+}
