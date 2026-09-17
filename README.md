@@ -4,11 +4,20 @@ Aplikasi Android untuk pengisian formulir biodata mahasiswa lengkap dengan fitur
 
 ---
 
+## 🎬 Demo Aplikasi (Live Preview)
+
+<div align="center">
+  <img src="Image/demo.gif" alt="Demo Aplikasi" width="340"/>
+  <p><em>Demonstrasi alur pengisian biodata, upload foto, Explicit Intent, dan penutupan Activity (onDestroy)</em></p>
+</div>
+
+---
+
 ## 📱 Tangkapan Layar (Screenshots)
 
 | Halaman Utama (Form Biodata & Upload Foto) | Halaman Kedua (Hasil Tampilan Biodata) |
 | :---: | :---: |
-| <img src="Image/Halaman_Utama.png" alt="Halaman Utama" width="360"/> | <img src="Image/Halaman_Kedua.png" alt="Halaman Kedua" width="360"/> |
+| <img src="Image/Halaman_Utama.png" alt="Halaman Utama" width="340"/> | <img src="Image/Halaman_Kedua.png" alt="Halaman Kedua" width="340"/> |
 
 ---
 
@@ -75,8 +84,9 @@ Intent_Activity/
 │   │       └── AndroidManifest.xml         # Registrasi MainActivity & SecondActivity
 │   └── build.gradle.kts
 ├── Image/
-│   ├── Halaman_Utama.png
-│   └── Halaman_Kedua.png
+│   ├── demo.gif                            # Animasi demo aplikasi (auto-play)
+│   ├── Halaman_Utama.png                   # Screenshot Halaman 1
+│   └── Halaman_Kedua.png                   # Screenshot Halaman 2
 └── README.md
 ```
 
